@@ -1,0 +1,98 @@
+.item-container {
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+}
+
+.item {
+    border-radius: 15px;
+    border-color: #FFEB99;
+    border-style: solid;
+    border-width: 1px;
+    font-size: large;
+    background-color: #FFEB99;
+}
+
+.item:hover {
+    box-shadow: 5px 5px 15px #00000025;
+    transform: translate(10px);
+    font-weight: bold;
+}
+
+.item p {
+    color: #333333;
+    width: 100%;
+    height: 100%;
+    padding: 6px 24px;
+}
+
+.item-text {
+    cursor: pointer;
+    text-decoration: dotted 3px solid #333333;
+}
+
+.add-item {
+    background-color: #B8E986;
+    border-color: #B8E986;
+    max-width: fit-content;
+    border-radius: 15px;
+    cursor: pointer;
+    align-self: center;
+}
+
+.add-item:hover {
+    box-shadow: 5px 5px 15px #00000025;
+    transform: translate(10px);
+    font-weight: bold;
+}
+
+.add-item-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 25px 30px;
+}
+
+.add-item p {
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.item-text {
+    cursor: pointer;
+}
+
+.item-text:hover {
+    text-decoration: dotted 3px solid #333333;
+}
+
+.completed {
+    text-decoration: line-through 3px solid #333333;
+}
+
+.item-options {
+    display: flex;
+    padding: 10px 0px;
+    padding-right: 10px;
+}
+
+.edit-item-form {
+    width: fit-content;
+    padding: 25px 30px;
+    align-self: center;
+    color: black;
+    border-radius: 15px;
+}
+
+.edit-item-form form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.edit-item-form input[type="text"] {
+    width: 100%;
+    padding: 5px;
+}

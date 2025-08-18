@@ -1,0 +1,17 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Funnel Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: #EAF6FF;
+    color: #333333;
+}
+
+/*
+#EAF6FF     -> main
+#4A90E2     -> tarea pendiente
+#FFEB99     -> tarea en progreso
+#B8E986     -> tarea completada
+#333333     -> texto e iconos
+*/

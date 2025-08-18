@@ -1,0 +1,27 @@
+.cantata-one-regular {
+  font-family: "Cantata One", serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.funnel-sans {
+  font-family: "Funnel Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.funnel-sans.bold {
+  font-weight: bold;
+}
+
+.funnel-sans.bolder {
+  font-weight: bolder;
+}
+
+.funnel-sans.lighter {
+  font-weight: lighter;
+}
+
+.funnel-sans.normal {
+  font-weight: normal;
+}
